@@ -1,0 +1,67 @@
+<TrustServiceStatusList xmlns="http://uri.etsi.org/02231/v2#" Id="id_for_enveloped_signing_of_the_entire_list" TSLTag="http://uri.etsi.org/19612/TSLTag">
+  <SchemeInformation>
+    <TSLVersionIdentifier>5</TSLVersionIdentifier>
+    <TSLSequenceNumber>6</TSLSequenceNumber>
+    <TSLType>http://uri.etsi.org/TrstSvc/TrustedList/TSLType/EUgeneric</TSLType>
+    <SchemeOperatorName>
+      <Name lang="en">Test EAA Trust Registry Infrastructure</Name>
+    </SchemeOperatorName>
+    <SchemeName>
+      <Name lang="en">IT:CREDIMI - EAA Providers</Name>
+    </SchemeName>
+    <SchemeInformationURI>
+      <URI lang="en">https://lote.registry.list.info/info</URI>
+    </SchemeInformationURI>
+    <StatusDeterminationApproach>http://uri.etsi.org/TrstSvc/TrustedList/StatusDetn/EUappropriate</StatusDeterminationApproach>
+    <SchemeTypeCommunityRules>
+      <URI lang="en">http://uri.etsi.org/TrstSvc/TrustedList/schemerules/EUcommon</URI>
+      <URI lang="en">http://uri.etsi.org/TrstSvc/TrustedList/schemerules/IT</URI>
+      <URI lang="en">http://uri.etsi.org/TrstSvc/TrustedList</URI>
+    </SchemeTypeCommunityRules>
+    <SchemeTerritory>IT</SchemeTerritory>
+    <HistoricalInformationPeriod>65535</HistoricalInformationPeriod>
+    <ListIssueDateTime>2026-08-05T10:29:33Z</ListIssueDateTime>
+    <NextUpdate>
+      <dateTime>2027-02-05T10:29:33Z</dateTime>
+    </NextUpdate>
+    <DistributionPoints>
+      <URI>https://lote.credimi.io/lists/it_credimi_eaa_trust_registry_infrastructur/latest/trusted-list.xml</URI>
+    </DistributionPoints>
+  </SchemeInformation>
+  <TrustServiceProviderList>
+    <TrustServiceProvider>
+      <TSPInformation>
+        <TSPName>
+          <Name lang="en">jhkhjjk</Name>
+        </TSPName>
+        <TSPTradeName>
+          <Name lang="en">jhkhjjk</Name>
+        </TSPTradeName>
+        <TSPAddress>
+          <ElectronicAddress>
+            <URI lang="en">https://get.se</URI>
+          </ElectronicAddress>
+        </TSPAddress>
+      </TSPInformation>
+      <TSPServices>
+        <TSPService>
+          <ServiceInformation>
+            <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/Non_Q_EAA_Provider</ServiceTypeIdentifier>
+            <ServiceName>
+              <Name lang="en">jhkhjjk</Name>
+            </ServiceName>
+            <ServiceDigitalIdentity>
+              <DigitalId>
+                <X509Certificate>MIIFTjCCAzagAwIBAgIUBiQK8dsJ3FOACpZ2Ouzn6Kk4A+8wDQYJKoZIhvcNAQENBQAwLjEPMA0GA1UEAwwGVkNDQSAxMQ4wDAYDVQQKDAVTVU5FVDELMAkGA1UEBhMCU0UwHhcNMjYwOTAxMTEzNjAwWhcNMjYxMjEwMTEzNjAwWjBlMRowGAYDVQQDDBFUZXN0IEVBQSBQcm92aWRlcjEbMBkGA1UEYQwSVkFUU0UtNTU2Njc3ODg5OTAxMR0wGwYDVQQKDBRUZXN0IEVBQSBQcm92aWRlciBBQjELMAkGA1UEBhMCU0UwWTATBgcqhkjOPQIBBggqhkjOPQMBBwNCAARHJqtEh+R1SnPlnmkB8/ODBmy/iMaxr5kW8yJF4Yx8voPv2rckJRFzKywdO142FefYT4UegoRo8rUK61EmEo4fo4IB9jCCAfIwHwYDVR0jBBgwFoAUdes6QhzImrBHhP3sk4Kw+8c/HVMwDAYDVR0TAQH/BAIwADAdBgNVHQ4EFgQUP1ShR2eGMtIpBnAfomyPg0l0aDowRQYDVR0RBD4wPIYgaHR0cHM6Ly9lYWEudGVzdC5leGFtcGxlL3N1cHBvcnSBGHN1cHBvcnRAZWFhLnRlc3QuZXhhbXBsZTAOBgNVHQ8BAf8EBAMCBkAwZgYDVR0fBF8wXTBboFmgV4ZVaHR0cDovL3ZjY2EtdGVzdC5pYW0uc3VuZXQuc2UvZGphbmdvX2NhL2NybC8yMzk0QkM3MDhDNEVBOEE3MTY4MzI4OEM2RTFERTdCRTE0ODU2OTc5LzCB4gYIKwYBBQUHAQEEgdUwgdIwZwYIKwYBBQUHMAGGW2h0dHA6Ly92Y2NhLXRlc3QuaWFtLnN1bmV0LnNlL2RqYW5nb19jYS9vY3NwLzIzOTRCQzcwOEM0RUE4QTcxNjgzMjg4QzZFMURFN0JFMTQ4NTY5NzkvY2VydC8wZwYIKwYBBQUHMAKGW2h0dHA6Ly92Y2NhLXRlc3QuaWFtLnN1bmV0LnNlL2RqYW5nb19jYS9pc3N1ZXIvMjM5NEJDNzA4QzRFQThBNzE2ODMyODhDNkUxREU3QkUxNDg1Njk3OS5kZXIwDQYJKoZIhvcNAQENBQADggIBABBbFDkWuRCGN4W4yOJFqOwlpiWBGiHmdQy2qbuSE9LD8ahpJzXNwrH3Pe3u77iNgLHxulYEu/WR5bj2ePt1KdkI4xnRs+GdNcu5OC9RuIJPWhsEj3h602tX1gdYJ8hfjHfHh5zTWHdn3vu9SYWbsKfEGC663R4CjzUB3cmvGxqteWPsV0n/fXV6mkG1jcmSHKCE7AXDvlgdL7HiyBF47Cu7emTFHZpBL476Sz+I2wa1jyf7dMcHlXDXSMwKP+WUtoTs9R+rZ2B+zbN6cBnDqwM6i1+1ogSNOVwdU1jsPbMA9FdRYcX38/rXoO72fqwHspCRm7AU9VrH93zwcjvTxhk3E+yi9YLVRR0te3wP/B2EtB/eGr+TPJGBmV1yTWoQyOJgKkxO7gA5lLD2fLe6vzsBYgYoRVx0V4QVGC18F77DNFp+PfBtrSFOSbY2aczWYrpagHwpyXezWuaK5iC0S5CfHCoIst29p6G1spheS7f/hkfYdAiDKU3vAWg0R08UUvkhQyhUn+YnkuWlrF9RlwevTHkHHaxc9LEmtd8V++1DOHP/yeMR8dLzlsSjS2sO0lvlKQ/wNUb8fgy6919GGfaYA1tDQyD/qjyfPg5RImQ5PKfDVGQBtHl4x2QT8MUPILTCuHPc+bw2+jPTQsNVGXX5fg6hTEggzP/Zb2hP0fl7</X509Certificate>
+                <X509SubjectName>C=SE,O=Test EAA Provider AB,2.5.4.97=VATSE-556677889901,CN=Test EAA Provider</X509SubjectName>
+                <X509SKI>P1ShR2eGMtIpBnAfomyPg0l0aDo=</X509SKI>
+              </DigitalId>
+            </ServiceDigitalIdentity>
+            <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
+            <StatusStartingTime>2026-09-04T11:41:26Z</StatusStartingTime>
+          </ServiceInformation>
+        </TSPService>
+      </TSPServices>
+    </TrustServiceProvider>
+  </TrustServiceProviderList>
+<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" Id="a2198f14ff04ef390899b08f67958b52"><ds:SignedInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#"><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/><ds:Reference Id="r-doc-a2198f14ff04ef390899b08f67958b52" URI=""><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>FdKoVhpYwrWwVTJvLFTP9x0BYamuTcXclFI3PjD3IFs=</ds:DigestValue></ds:Reference><ds:Reference Type="http://uri.etsi.org/01903#SignedProperties" URI="#xades-a2198f14ff04ef390899b08f67958b52"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>FkE7cT0cPYVKpxcIfx0wLTL9qSDA1q+cnSte1CZeAXg=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>OnIgZ8UM0NfHraToWMDrg5wCKhYGCvt8hEjkUF+j/McGaa5WJLg40hm3Cep3N+ctp2NjvkHkj6RlZt2hso8VYsEENRGjdc08yMpoLN9j55VJxG12L+JtGiR67lKNAJ/7dDpuMxhg9v1ptApo349ZVrsMU7s99FlyOL5hRwhue2RE2l9hwKLeaysHtKCd/zB6+XeL2dL3XaTBPzZq634unkcZimiYe4vvDKkr9+uuLwy+DpPYbDv8zI0bnkimpTPJOyaqvCOravUx+56/tIHcVWXx54FQFk2IIgARvy0xg7W8Tih8g7/TzWQbeC7ZUSsTLZOr586L9qDhBS4UQsVWEg==</ds:SignatureValue><ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIIDZzCCAk+gAwIBAgIUGe4lfmCeS08SsLl7K5GZmUMHTP0wDQYJKoZIhvcNAQELBQAwQzEoMCYGA1UEAwwfTE9UTCBJbnRlZ3JhdGVkIFRlc3QgVFNMIFNpZ25lcjEXMBUGA1UECgwOV1A0IFRydXN0IFRlc3QwHhcNMjYwOTA3MTE0NDU3WhcNMjcwOTA3MTE0NDU3WjBDMSgwJgYDVQQDDB9MT1RMIEludGVncmF0ZWQgVGVzdCBUU0wgU2lnbmVyMRcwFQYDVQQKDA5XUDQgVHJ1c3QgVGVzdDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAL1seDszGqOvd1FIOmdekLnesslN+lRQ7ZO0+zhTn7hZgdUF6dGI6d6sDYCjQRpdNXk84vE5w6+RAv1IBpf5M8YJdLL0ycYB7aPJu8w8HkCnyRRRilYeiPEHwwxl8A/whDd/4dYjyWm3Nsdo/Iboyedh9ARVsEH5broB3+PlLjf3h3SPFpjICRnNEt9Eew4Uokvd/7ff0Ta530N/QnP5jAGpjXk8T4Hn2Xg32V8kyKxcBtcF6SVVsN8cg/SaHhLSN3qvsTAUG86SkVPDMpp5/BkYTI9ybuap6UFKQi7m9IXsCnt8k2q+qa9CHQbyPzt2L+VSe/4WPAEJ0nbjEVYS0Z0CAwEAAaNTMFEwHQYDVR0OBBYEFJy0gwEWuYv1rHGv1pA8/Uz89sWnMB8GA1UdIwQYMBaAFJy0gwEWuYv1rHGv1pA8/Uz89sWnMA8GA1UdEwEB/wQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBAAd7R2cYYUZ0unFmo9wtuFoa7N5O/8V4DVYL08Z1GmfYnZHPoSAeew83doAdkBZTzk/d19sHij19TSm8R2jNU+G9a2n03BnEwFZdVoMthu9FAzOkEsgrP587xbn6RIZuT2Yv223ETH4M9rYHXmIaU2QO2cgpwyYq4BZX8kdPBuc9FWzOpLpMB5MkFSj/Kkmfvz3Ui5apT5qPILXTocinGzBaxEusOCUE3gmWBUXf1i90GBTzSYiYBK4x+v3sZi6MJd+uX3S46MkvPGBSEv/BVfV04O438yWMitv01h6qSKqunINFuJWR5dMsqCP17W/FyyzE68XjO7LlDqQ4Jfa+kDY=</ds:X509Certificate></ds:X509Data></ds:KeyInfo><ds:Object><xades:QualifyingProperties xmlns:xades="http://uri.etsi.org/01903/v1.3.2#" Target="#a2198f14ff04ef390899b08f67958b52"><xades:SignedProperties Id="xades-a2198f14ff04ef390899b08f67958b52"><xades:SignedSignatureProperties><xades:SigningTime>2026-09-07T11:49:16Z</xades:SigningTime><xades:SigningCertificate><xades:Cert><xades:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>kuuHGtfSoxBZ6Da8ac6/RjBXVdvLLfL5nERRhz9fkSg=</ds:DigestValue></xades:CertDigest><xades:IssuerSerial><ds:X509IssuerName>CN=LOTL Integrated Test TSL Signer,O=WP4 Trust Test</ds:X509IssuerName><ds:X509SerialNumber>148035612786431781525416335460484413149961211133</ds:X509SerialNumber></xades:IssuerSerial></xades:Cert></xades:SigningCertificate></xades:SignedSignatureProperties><xades:SignedDataObjectProperties><xades:DataObjectFormat ObjectReference="#r-doc-a2198f14ff04ef390899b08f67958b52"><xades:MimeType>text/xml</xades:MimeType></xades:DataObjectFormat></xades:SignedDataObjectProperties></xades:SignedProperties></xades:QualifyingProperties></ds:Object></ds:Signature></TrustServiceStatusList>

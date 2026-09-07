@@ -1,0 +1,27 @@
+{
+  "LoTE": {
+    "ListAndSchemeInformation": {
+      "LoTEVersionIdentifier": 1,
+      "LoTESequenceNumber": 1,
+      "LoTEType": "http://uri.etsi.org/19602/LoTEType/EUPIDProvidersList",
+      "SchemeOperatorName": [
+        {
+          "lang": "en",
+          "value": "WP4Trust Registry"
+        }
+      ],
+      "SchemeName": [
+        {
+          "lang": "en",
+          "value": "EU Trusted Entities List"
+        }
+      ],
+      "SchemeTerritory": "EU",
+      "ListIssueDateTime": "2026-09-07T11:44:23Z",
+      "NextUpdate": "2027-03-06T11:44:23Z",
+      "DistributionPoints": [
+        "http://localhost/lote/pid_providers/pid_providers.json"
+      ]
+    }
+  }
+}
