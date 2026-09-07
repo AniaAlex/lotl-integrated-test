@@ -1,0 +1,101 @@
+{
+  "LoTE": {
+    "ListAndSchemeInformation": {
+      "LoTEVersionIdentifier": 1,
+      "LoTESequenceNumber": 1,
+      "LoTEType": "http://uri.etsi.org/19602/LoTLType/EUListOfTrustedLists",
+      "SchemeOperatorName": [
+        {
+          "lang": "en",
+          "value": "WP4Trust Registry"
+        }
+      ],
+      "SchemeName": [
+        {
+          "lang": "en",
+          "value": "EU List of Trusted Lists"
+        }
+      ],
+      "SchemeTerritory": "EU",
+      "PointersToOtherLoTE": [
+        {
+          "LoTELocation": "https://raw.githubusercontent.com/AniaAlex/lotl-integrated-test/main/dist/lote/pid-providers/pid_providers.json",
+          "ServiceDigitalIdentities": [
+            {
+              "X509Certificates": [
+                {
+                  "val": "MIIB0zCCAXmgAwIBAgIUIwRG9gvA3b8w2D966Zl+E+GgHp4wCgYIKoZIzj0EAwIwPzEkMCIGA1UEAwwbTE9UTCBJbnRlZ3JhdGVkIFRlc3QgU2lnbmVyMRcwFQYDVQQKDA5XUDQgVHJ1c3QgVGVzdDAeFw0yNjA5MDcxMTM4MzlaFw0yNzA5MDcxMTM4MzlaMD8xJDAiBgNVBAMMG0xPVEwgSW50ZWdyYXRlZCBUZXN0IFNpZ25lcjEXMBUGA1UECgwOV1A0IFRydXN0IFRlc3QwWTATBgcqhkjOPQIBBggqhkjOPQMBBwNCAAT+/Ym0AMhzG+uncUFLsLMfkh5g9S0P2bKJiVLOCWCj3eJ15eKKMeT3u5dS7b6jl34igmbV+cKr5PptHR0/ydkIo1MwUTAdBgNVHQ4EFgQUqf4334oHoPHqZ2sJ2JGfF1RdQdAwHwYDVR0jBBgwFoAUqf4334oHoPHqZ2sJ2JGfF1RdQdAwDwYDVR0TAQH/BAUwAwEB/zAKBggqhkjOPQQDAgNIADBFAiEAi9roaUdu5CMxIk5cknDq4kE55xbLfeDDfvpId84FG68CIHJyHDfPGYpBYbvFrNadqRiCsxqw/UMUSCv17sGnuDSS"
+                }
+              ]
+            }
+          ],
+          "LoTEQualifiers": [
+            {
+              "LoTEType": "http://uri.etsi.org/19602/LoTEType/EUPIDProvidersList",
+              "SchemeOperatorName": [
+                {
+                  "lang": "en",
+                  "value": "WP4Trust Registry"
+                }
+              ],
+              "SchemeTerritory": "EU",
+              "MimeType": "application/json"
+            }
+          ]
+        },
+        {
+          "LoTELocation": "https://raw.githubusercontent.com/AniaAlex/lotl-integrated-test/main/dist/lote/pubeaa-providers/pubeaa_providers.json",
+          "ServiceDigitalIdentities": [
+            {
+              "X509Certificates": [
+                {
+                  "val": "MIIB0zCCAXmgAwIBAgIUIwRG9gvA3b8w2D966Zl+E+GgHp4wCgYIKoZIzj0EAwIwPzEkMCIGA1UEAwwbTE9UTCBJbnRlZ3JhdGVkIFRlc3QgU2lnbmVyMRcwFQYDVQQKDA5XUDQgVHJ1c3QgVGVzdDAeFw0yNjA5MDcxMTM4MzlaFw0yNzA5MDcxMTM4MzlaMD8xJDAiBgNVBAMMG0xPVEwgSW50ZWdyYXRlZCBUZXN0IFNpZ25lcjEXMBUGA1UECgwOV1A0IFRydXN0IFRlc3QwWTATBgcqhkjOPQIBBggqhkjOPQMBBwNCAAT+/Ym0AMhzG+uncUFLsLMfkh5g9S0P2bKJiVLOCWCj3eJ15eKKMeT3u5dS7b6jl34igmbV+cKr5PptHR0/ydkIo1MwUTAdBgNVHQ4EFgQUqf4334oHoPHqZ2sJ2JGfF1RdQdAwHwYDVR0jBBgwFoAUqf4334oHoPHqZ2sJ2JGfF1RdQdAwDwYDVR0TAQH/BAUwAwEB/zAKBggqhkjOPQQDAgNIADBFAiEAi9roaUdu5CMxIk5cknDq4kE55xbLfeDDfvpId84FG68CIHJyHDfPGYpBYbvFrNadqRiCsxqw/UMUSCv17sGnuDSS"
+                }
+              ]
+            }
+          ],
+          "LoTEQualifiers": [
+            {
+              "LoTEType": "http://uri.etsi.org/19602/LoTEType/EUPubEAAProvidersList",
+              "SchemeOperatorName": [
+                {
+                  "lang": "en",
+                  "value": "WP4Trust Registry"
+                }
+              ],
+              "SchemeTerritory": "EU",
+              "MimeType": "application/json"
+            }
+          ]
+        },
+        {
+          "LoTELocation": "https://raw.githubusercontent.com/AniaAlex/lotl-integrated-test/main/dist/lote/tsl/eaa-provider/trusted-list.xml",
+          "ServiceDigitalIdentities": [
+            {
+              "X509Certificates": [
+                {
+                  "val": "MIIDZzCCAk+gAwIBAgIUGe4lfmCeS08SsLl7K5GZmUMHTP0wDQYJKoZIhvcNAQELBQAwQzEoMCYGA1UEAwwfTE9UTCBJbnRlZ3JhdGVkIFRlc3QgVFNMIFNpZ25lcjEXMBUGA1UECgwOV1A0IFRydXN0IFRlc3QwHhcNMjYwOTA3MTE0NDU3WhcNMjcwOTA3MTE0NDU3WjBDMSgwJgYDVQQDDB9MT1RMIEludGVncmF0ZWQgVGVzdCBUU0wgU2lnbmVyMRcwFQYDVQQKDA5XUDQgVHJ1c3QgVGVzdDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAL1seDszGqOvd1FIOmdekLnesslN+lRQ7ZO0+zhTn7hZgdUF6dGI6d6sDYCjQRpdNXk84vE5w6+RAv1IBpf5M8YJdLL0ycYB7aPJu8w8HkCnyRRRilYeiPEHwwxl8A/whDd/4dYjyWm3Nsdo/Iboyedh9ARVsEH5broB3+PlLjf3h3SPFpjICRnNEt9Eew4Uokvd/7ff0Ta530N/QnP5jAGpjXk8T4Hn2Xg32V8kyKxcBtcF6SVVsN8cg/SaHhLSN3qvsTAUG86SkVPDMpp5/BkYTI9ybuap6UFKQi7m9IXsCnt8k2q+qa9CHQbyPzt2L+VSe/4WPAEJ0nbjEVYS0Z0CAwEAAaNTMFEwHQYDVR0OBBYEFJy0gwEWuYv1rHGv1pA8/Uz89sWnMB8GA1UdIwQYMBaAFJy0gwEWuYv1rHGv1pA8/Uz89sWnMA8GA1UdEwEB/wQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBAAd7R2cYYUZ0unFmo9wtuFoa7N5O/8V4DVYL08Z1GmfYnZHPoSAeew83doAdkBZTzk/d19sHij19TSm8R2jNU+G9a2n03BnEwFZdVoMthu9FAzOkEsgrP587xbn6RIZuT2Yv223ETH4M9rYHXmIaU2QO2cgpwyYq4BZX8kdPBuc9FWzOpLpMB5MkFSj/Kkmfvz3Ui5apT5qPILXTocinGzBaxEusOCUE3gmWBUXf1i90GBTzSYiYBK4x+v3sZi6MJd+uX3S46MkvPGBSEv/BVfV04O438yWMitv01h6qSKqunINFuJWR5dMsqCP17W/FyyzE68XjO7LlDqQ4Jfa+kDY="
+                }
+              ]
+            }
+          ],
+          "LoTEQualifiers": [
+            {
+              "LoTEType": "http://uri.etsi.org/TrstSvc/TrustedList/TSLType/EUgeneric",
+              "SchemeOperatorName": [
+                {
+                  "lang": "en",
+                  "value": "Test EAA Trust Registry Infrastructure"
+                }
+              ],
+              "SchemeTerritory": "IT",
+              "MimeType": "application/vnd.etsi.tsl+xml"
+            }
+          ]
+        }
+      ],
+      "ListIssueDateTime": "2026-09-07T12:18:24Z",
+      "NextUpdate": "2027-03-06T12:18:24Z"
+    }
+  }
+}
