@@ -19,7 +19,7 @@
       "SchemeTerritory": "EU",
       "PointersToOtherLoTE": [
         {
-          "LoTELocation": "https://raw.githubusercontent.com/AniaAlex/lotl-integrated-test/main/dist/lote/pid-providers/pid_providers.json",
+          "LoTELocation": "https://raw.githubusercontent.com/AniaAlex/lotl-integrated-test/main/dist/pid-providers/pid_providers.json",
           "ServiceDigitalIdentities": [
             {
               "X509Certificates": [
@@ -44,7 +44,7 @@
           ]
         },
         {
-          "LoTELocation": "https://raw.githubusercontent.com/AniaAlex/lotl-integrated-test/main/dist/lote/pubeaa-providers/pubeaa_providers.json",
+          "LoTELocation": "https://raw.githubusercontent.com/AniaAlex/lotl-integrated-test/main/dist/pubeaa-providers/pubeaa_providers.json",
           "ServiceDigitalIdentities": [
             {
               "X509Certificates": [
@@ -69,7 +69,7 @@
           ]
         },
         {
-          "LoTELocation": "https://raw.githubusercontent.com/AniaAlex/lotl-integrated-test/main/dist/lote/tsl/eaa-provider/trusted-list.xml",
+          "LoTELocation": "https://raw.githubusercontent.com/AniaAlex/lotl-integrated-test/main/dist/tsl/eaa-provider/trusted-list.xml",
           "ServiceDigitalIdentities": [
             {
               "X509Certificates": [
@@ -94,8 +94,8 @@
           ]
         }
       ],
-      "ListIssueDateTime": "2026-09-07T12:18:24Z",
-      "NextUpdate": "2027-03-06T12:18:24Z"
+      "ListIssueDateTime": "2026-09-07T12:28:50Z",
+      "NextUpdate": "2027-03-06T12:28:50Z"
     }
   }
 }
